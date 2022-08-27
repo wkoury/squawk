@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  squawk-server:
+    build: .
+    ports:
+      - "8000:8088"
+    restart: unless-stopped
